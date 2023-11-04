@@ -5,4 +5,5 @@ const [month, day, year] = [
   date.getFullYear(),
 ];
 
-console.log(year+'年'+month+'月'+day+'日');
+let tuKi = month + 1;
+console.log(year+'年'+tuKi+'月'+day+'日');
